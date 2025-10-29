@@ -1,154 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dr. Saima Naeem— Senior Economist State Bank of Pakistan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root{--accent:#0b57a4;--muted:#6b7280;--bg:#ffffff}
-    body{font-family:Roboto,Arial,Helvetica,sans-serif;color:#111;background:var(--bg);margin:0;line-height:1.6}
-    header{background:white;border-bottom:1px solid #eef2f6;padding:22px 24px;position:sticky;top:0;z-index:10}
-    .container{max-width:1000px;margin:0 auto;padding:28px}
-    .brand{display:flex;align-items:center;gap:14px}
-    .brand h1{font-family:Merriweather,serif;margin:0;font-size:20px;color:var(--accent)}
-    .tag{color:var(--muted);font-size:14px}
-    nav{margin-left:auto}
-    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:500}
-    .hero{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:center;padding:40px 0}
-    .hero .lead{font-size:18px;color:#222}
-    .photo{background:#f3f6fa;border-radius:8px;height:220px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
-    section.card{background:white;border:1px solid #f0f3f6;padding:18px;border-radius:8px;margin-bottom:18px}
-    h2{font-family:Merriweather,serif;color:#123b6b;margin-top:0}
-    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-    .list{margin:0;padding:0;list-style:none}
-    .paper{margin-bottom:10px}
-    footer{border-top:1px solid #eef2f6;padding:22px 0;margin-top:32px;color:var(--muted)}
-    .btn{background:var(--accent);color:white;padding:8px 12px;border-radius:6px;text-decoration:none}
-    @media(max-width:900px){.hero{grid-template-columns:1fr}.grid3{grid-template-columns:1fr}}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Naeem – Research Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header>
-  <div class="container brand">
-    <div>
-      <h1>Dr. Saima Naeem— Market Research & Policy Insights</h1>
-      <div class="tag">Senior Economist | Research Department, State Bank of Pakistan</div>
+  <header class="header">
+    <div class="container">
+      <h1>Muhammad Naeem</h1>
+      <p class="subtitle">Senior Economist | Central Bank Researcher | Policy Analyst</p>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <nav>
-      <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#blog">Blog</a>
-      <a href="#data">Data</a>
-      <a href="#cv">CV</a>
-      <a href="#contact" class="btn">Contact</a>
-    </nav>
-  </div>
-</header>
-<main class="container">
-  <section class="hero">
-    <div>
-      <div class="card">
-        <p class="lead">I am a researcher focused on macro and applied micro topics relevant to policy design. My work spans firm-level surveys, price and wage setting, and financial inclusion. I write short analytic pieces translating technical results for a policy audience.</p>
-        <p>Featured: <strong>Wage rigidity in developing economies</strong> — a working paper analyzing panel survey evidence from Pakistan.</p>
-      </div>
-      <div id="research" class="card">
-        <h2>Research</h2>
-        <div class="paper">
-          <strong>Price Setting and Inflation Expectations in Pakistan</strong>
-          <div class="tag">Journal of Macroeconomics, 2023</div>
-          <p class="tag">Summary: Uses firm-level surveys to document wage and price stickiness and implications for monetary transmission.</p>
-        </div>
-        <div class="paper">
-          <strong>Export Refinance Scheme and Firm-Level Outcomes</strong>
-          <div class="tag">IMF Technical Paper, 2021</div>
-          <p class="tag">Summary: Microdata evaluation showing program impact on export growth among assisted firms.</p>
-        </div>
-        <a href="#projects" class="btn">See all publications</a>
-      </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo" />
+      <h2>About Me</h2>
+      <p>
+        I am a senior economist specializing in applied research, survey design, and data-driven policy analysis.
+        My work focuses on export competitiveness, SME finance, and behavioral responses in macroeconomic environments.
+      </p>
     </div>
-    <aside class="photo card">
-      <div>
-        <div style="font-weight:700;margin-bottom:8px">Saima Research</div>
-        <div class="tag">Placeholder photo</div>
-      </div>
-    </aside>
   </section>
 
-  <section id="projects" class="card">
-    <h2>Projects & Data</h2>
-    <div class="grid3">
-      <div>
-        <h3>SME Credit Demand</h3>
-        <p class="tag">A mixed-methods study combining transactional loan data with firm surveys to identify credit constraints.</p>
+  <section id="research" class="section light">
+    <div class="container">
+      <h2>Selected Research</h2>
+      <ul class="list">
+        <li><strong>Export Refinance Scheme and Firm Growth</strong> – Microdata-based evaluation of EFS impact (2024)</li>
+        <li><strong>SME Credit Demand and Financial Inclusion</strong> – Behavioral insights from firm-level surveys (2023)</li>
+        <li><strong>Price Setting Behavior in Pakistan</strong> – Evidence from 2,000 manufacturing and service firms (2022)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="blog" class="section">
+    <div class="container">
+      <h2>Latest Posts</h2>
+      <div class="blog-post">
+        <h3>Understanding Inflation Expectations</h3>
+        <p>Exploring how firm risk attitudes shape inflation expectations and decision-making.</p>
+        <a href="#">Read more →</a>
       </div>
-      <div>
-        <h3>Financial Inclusion Index</h3>
-        <p class="tag">Development of a composite index tracking access, usage and quality of financial services.</p>
-      </div>
-      <div>
-        <h3>Wage Survey Panel</h3>
-        <p class="tag">A panel of firms documenting wage-setting rules and rigidity across sectors.</p>
+      <div class="blog-post">
+        <h3>Why Vacancy Duration Matters in Policy Research</h3>
+        <p>Vacancy duration offers crucial insights into labor market frictions and firm dynamics.</p>
+        <a href="#">Read more →</a>
       </div>
     </div>
   </section>
 
-  <section id="blog" class="card">
-    <h2>Blog / Insights</h2>
-    <div>
-      <article style="margin-bottom:12px">
-        <h3>Why business confidence matters for policy timing</h3>
-        <div class="tag">Apr 10, 2025</div>
-        <p>Short summary: Business confidence can anticipate investment cycles. I discuss the limitations of headline indices and propose a simple adjustment for survey coverage.</p>
-      </article>
-      <article style="margin-bottom:12px">
-        <h3>Survey design lessons from fieldwork</h3>
-        <div class="tag">Mar 3, 2025</div>
-        <p>Short summary: Practical notes on questionnaire order, incentive framing and dealing with non-response in firm surveys.</p>
-      </article>
-      <a href="#" class="btn">Read more posts</a>
+  <section id="contact" class="section light">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:m.naeem@example.com">m.naeem@example.com</a></p>
+      <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/muhammadnaeem</a></p>
+      <p>GitHub: <a href="#" target="_blank">github.com/muhammadnaeem</a></p>
     </div>
-  </section>
-
-  <section id="data" class="card">
-    <h2>Data & Tools</h2>
-    <p class="tag">I occasionally share anonymized survey instruments and code. Below are example resources with dummy links.</p>
-    <ul class="list">
-      <li><a href="#">Survey instrument (PDF) — placeholder</a></li>
-      <li><a href="#">Stata/R code for index construction — placeholder</a></li>
-    </ul>
-  </section>
-
-  <section id="cv" class="card">
-    <h2>CV</h2>
-    <p class="tag">Download my curriculum vitae (dummy): <a href="#">Saima_CV.pdf</a></p>
-    <ul>
-      <li><strong>Education</strong>: PhD in Economics, Example University</li>
-      <li><strong>Current role</strong>: Senior Economist, State Bank of Pakistan</li>
-      <li><strong>Research interests</strong>: Labor economics, monetary policy, survey design</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="card">
-    <h2>Contact</h2>
-    <p class="tag">Email: saima.research@example.com</p>
-    <p class="tag">Profiles: <a href="#">Google Scholar</a> · <a href="#">ResearchGate</a> · <a href="#">LinkedIn</a> · <a href="#">ORCID</a></p>
-
-    <form action="#" method="post">
-      <label class="tag">Message</label>
-      <textarea style="width:100%;height:100px;border:1px solid #e6ecf3;border-radius:6px;padding:8px;margin-top:6px"></textarea>
-      <div style="margin-top:10px"><button class="btn">Send</button></div>
-    </form>
   </section>
 
   <footer>
-    <div class="container">
-      <div style="display:flex;justify-content:space-between;align-items:center">
-        <div>© 2025 Dr. Saima. All rights reserved.</div>
-        <div class="tag">Designed for GitHub Pages | Template by Assistant</div>
-      </div>
-    </div>
+    <p>© 2025 Muhammad Naeem. All Rights Reserved.</p>
   </footer>
-</main>
 </body>
 </html>
