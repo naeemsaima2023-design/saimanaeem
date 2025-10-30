@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* Base Styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #F8F9FA;
+  color: #6C757D;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: #003366;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D4AF37;
+}
+
+/* Layout */
+header {
+  background-color: #003366;
+  color: #F8F9FA;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #F8F9FA;
+  margin-left: 1.5rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #D4AF37;
+}
+
+.container {
+  width: 85%;
+  margin: 2rem auto;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* Home */
+.home {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home img {
+  width: 300px;
+  height: auto;
+  border: 3px solid #D4AF37;
+}
+
+.intro {
+  flex: 1;
+}
+
+/* Blog */
+.blog-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.blog-list {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #F8F9FA;
+  border-left: 2px solid #D4AF37;
+  padding-left: 1rem;
+}
+
+/* Contact Icons */
+.contact-icons a {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: #003366;
+}
+
+.contact-icons a:hover {
+  color: #D4AF37;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: #F8F9FA;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

@@ -1,41 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Research – Muhammad Naeem</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Saima [Your Name]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-blue: #003366;
+            --gold-accent: #D4AF37;
+            --soft-white: #F8F9FA;
+            --steel-gray: #6C757D;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: var(--soft-white);
+            color: var(--deep-blue);
+        }
+
+        header {
+            background-color: var(--deep-blue);
+            color: var(--soft-white);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: var(--steel-gray);
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 0.75rem 0;
+        }
+
+        nav a {
+            color: var(--soft-white);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: var(--gold-accent);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 3rem 5%;
+        }
+
+        .content {
+            flex: 3;
+            min-width: 60%;
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 25%;
+            background-color: #f4f6f8;
+            border-left: 3px solid var(--gold-accent);
+            padding: 1rem 1.5rem;
+            height: fit-content;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--deep-blue);
+            border-bottom: 2px solid var(--gold-accent);
+            padding-bottom: 0.25rem;
+        }
+
+        h3 a {
+            color: var(--deep-blue);
+            text-decoration: none;
+        }
+
+        h3 a:hover {
+            color: var(--gold-accent);
+        }
+
+        p {
+            color: var(--steel-gray);
+            line-height: 1.6;
+        }
+
+        .paper {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar h3 {
+            color: var(--deep-blue);
+            border-bottom: 1px solid var(--gold-accent);
+            padding-bottom: 0.5rem;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .sidebar li {
+            margin: 0.5rem 0;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: var(--deep-blue);
+        }
+
+        .sidebar a:hover {
+            color: var(--gold-accent);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: var(--deep-blue);
+            color: var(--soft-white);
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                border-left: none;
+                border-top: 3px solid var(--gold-accent);
+                margin-top: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Research</h1>
+    <header>
+        <h1>Research Work</h1>
+    </header>
+
     <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="research.html">Research</a>
+        <a href="blog.html">Blog</a>
+        <a href="personal.html">Personal</a>
+        <a href="contact.html">Contact</a>
     </nav>
-  </header>
 
-  <section class="section">
     <div class="container">
-      <h2>Published Papers</h2>
-      <ul class="list">
-        <li><strong>Price Setting Behavior in Pakistan</strong> – Journal of Macroeconomics, 2022.</li>
-        <li><strong>Export Refinance Scheme and Firm Growth</strong> – Economic Modelling, 2023.</li>
-        <li><strong>SME Credit Demand and Financial Inclusion</strong> – Central Bank Working Paper, 2024.</li>
-      </ul>
+        <div class="content">
+            <h2>Published Papers</h2>
 
-      <h2>Working Papers</h2>
-      <ul class="list">
-        <li><strong>Inflation Expectations and Risk Attitudes</strong> – Evidence from Pakistani Firms (Under Review).</li>
-        <li><strong>Vacancy Duration and Labor Market Frictions</strong> – A Structural Approach (Ongoing).</li>
-      </ul>
+            <div class="paper">
+                <h3><a href="http://www.sciencedirect.com/science/article/pii/S0164070416000045" target="_blank">Price Setting & Price Stickiness: A Developing Economy Perspective</a></h3>
+                <p>With M. Ali Choudhary, Abdul Faheem, M. Nadim Hanif, and Farooq Pasha. <em>Journal of Macroeconomics</em> (2016).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://link.springer.com/content/pdf/10.1007/s11266-015-9655-2.pdf" target="_blank">Charity and Gift Exchange: Cultural Effects</a></h3>
+                <p>With Asad Zaman. <em>VOLUNTAS</em> (2016).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.sciencedirect.com/science/article/pii/S0264999314000194" target="_blank">Sticky Wages in a Developing Country: Lessons from Structured Interviews in Pakistan</a></h3>
+                <p>With Waqas Ahmed, M. Ali Choudhary, Sajawal Khan, and Gylfi Zoega. <em>Economic Modelling</em> (2014).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.pide.org.pk/pdf/PDR/2010/Volume4/719-740.pdf" target="_blank">Monetary and Non-monetary Gift Exchange</a></h3>
+                <p>With Asad Zaman. <em>Pakistan Development Review</em> (2010).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.pide.org.pk/pdf/PDR/2014/Volume1/1-14.pdf" target="_blank">Gender and Ultimatum Game in Pakistan: Revisited</a></h3>
+                <p>With Asad Zaman. <em>Pakistan Development Review</em> (2014).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.sbp.org.pk/reports/annual/arfy05/Chp-6.pdf" target="_blank">Private Non-guaranteed Debt</a></h3>
+                <p>Section in <em>State Bank Annual Report</em> on “Private Non-guaranteed Debt” (2005).</p>
+            </div>
+
+            <h2>Working Papers</h2>
+
+            
+<div class="paper">
+                <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5403036" target="_blank">Price Setting Behavior of Firms in Pakistan</a></h3>
+                <p>With Ali Inayat <em>SBP Working Paper Series</em> (2025).</p>
+            </div>
+
+<div class="paper">
+                <h3><a href="http://www.sbp.org.pk/publications/wpapers/2016/wp75.pdf" target="_blank">Incentives in Competition: The Role of Money, Recognition, and Perception in Performance</a></h3>
+                <p>With Asad Zaman. <em>available at SSRN</em> (2025).</p>
+            </div>
+
+
+<div class="paper">
+                <h3><a href="http://www.sbp.org.pk/publications/wpapers/2016/wp75.pdf" target="_blank">Informal Labour Markets in Pakistan</a></h3>
+                <p>With M. Ali Choudhary and Gylfi Zoega. <em>SBP Working Paper Series</em> (2016).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.fahs.surrey.ac.uk/economics/discussion_papers/2011/DP10-11.pdf" target="_blank">Price Discoveries: Preliminary Results from a Developing Country</a></h3>
+                <p>With M. Ali Choudhary, Abdul Faheem, M. Nadeem Hanif, and Farooq Pasha. <em>University of Surrey Discussion Paper Series</em> (2011).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.fahs.surrey.ac.uk/economics/discussion_papers/2013/DP02-13.pdf" target="_blank">Sticky Wages in a Developing Country (Working Paper)</a></h3>
+                <p>With Waqas Ahmed, M. Ali Choudhary, Sajawal Khan, and Gylfi Zoega. <em>University of Surrey Discussion Paper DP 02/13</em>.</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://www.pide.org.pk/pdf/Working%20Paper/WorkingPaper-90.pdf" target="_blank">For Love or Money? Motivating Workers (Working Paper)</a></h3>
+                <p>With Asad Zaman. <em>PIDE Working Paper Series</em> (2013).</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1443568" target="_blank">Complexity of Gift Exchange in Field</a></h3>
+                <p>With Asad Zaman. Submitted to <em>Economy and Society</em>. Paper available at SSRN.</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Topics Covered</h3>
+            <ul>
+                <li><a href="#published">Published Papers</a></li>
+                <li><a href="#working">Working Papers</a></li>
+                <li><a href="#">Monetary Policy</a></li>
+                <li><a href="#">Behavioral Economics</a></li>
+                <li><a href="#">Wage & Price Stickiness</a></li>
+                <li><a href="#">Gift Exchange Studies</a></li>
+            </ul>
+        </div>
     </div>
-  </section>
 
-  <footer>
-    <p>© 2025 Muhammad Naeem.</p>
-  </footer>
+    <footer>
+        &copy; 2025 Saima [Your Name]. All rights reserved.
+    </footer>
 </body>
 </html>
+

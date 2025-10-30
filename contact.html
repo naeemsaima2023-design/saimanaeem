@@ -3,32 +3,144 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact – Muhammad Naeem</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <title>Contact | Saima [Your Name]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --deep-blue: #003366;
+      --gold-accent: #D4AF37;
+      --soft-white: #F8F9FA;
+      --steel-gray: #6C757D;
+    }
 
+    body {
+      margin: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: var(--soft-white);
+      color: var(--deep-blue);
+    }
+
+    header {
+      background-color: var(--deep-blue);
+      color: var(--soft-white);
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: var(--steel-gray);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem 0;
+    }
+
+    nav a {
+      color: var(--soft-white);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--gold-accent);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+      text-align: center;
+    }
+
+    .contact-item {
+      margin: 1.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .contact-item i {
+      color: var(--gold-accent);
+      margin-right: 0.5rem;
+    }
+
+    .contact-item a {
+      color: var(--deep-blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-item a:hover {
+      color: var(--gold-accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--deep-blue);
+      color: var(--soft-white);
+      margin-top: 3rem;
+    }
+  </style>
+</head>
 <body>
+
   <header>
     <h1>Contact</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
   </header>
 
-  <section class="section">
-    <div class="container center">
-      <h2>Get in Touch</h2>
-      <p>Email: <a href="mailto:m.naeem@example.com">m.naeem@example.com</a></p>
-      <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/muhammadnaeem</a></p>
-      <p>GitHub: <a href="#" target="_blank">github.com/muhammadnaeem</a></p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cv.html">CV</a>
+    <a href="research.html">Research</a>
+    <a href="blog.html">Blog</a>
+    <a href="personal.html">Personal</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <p>Feel free to reach out through any of the following platforms:</p>
+
+    <div class="contact-item">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:youremail@example.com">youremail@example.com</a>
     </div>
-  </section>
+
+    <div class="contact-item">
+      <i class="fa-brands fa-linkedin"></i>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <a href="https://scholar.google.com/citations?user=yourid" target="_blank">Google Scholar</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fa-brands fa-researchgate"></i>
+      <a href="https://www.researchgate.net/profile/yourname" target="_blank">ResearchGate</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fa-solid fa-chart-line"></i>
+      <a href="https://ideas.repec.org/f/yourid.html" target="_blank">IDEAS/RePEc</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fa-brands fa-x-twitter"></i>
+      <a href="https://x.com/yourhandle" target="_blank">X (Twitter)</a>
+    </div>
+  </div>
 
   <footer>
-    <p>© 2025 Muhammad Naeem.</p>
+    &copy; 2025 Saima [Your Name]. All rights reserved.
   </footer>
+
 </body>
 </html>

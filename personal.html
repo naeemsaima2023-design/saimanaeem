@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal | Saima [Your Name]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --deep-blue: #003366;
+      --gold-accent: #D4AF37;
+      --soft-white: #F8F9FA;
+      --steel-gray: #6C757D;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: var(--soft-white);
+      color: var(--deep-blue);
+    }
+
+    header {
+      background-color: var(--deep-blue);
+      color: var(--soft-white);
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: var(--steel-gray);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem 0;
+    }
+
+    nav a {
+      color: var(--soft-white);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--gold-accent);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--deep-blue);
+      border-bottom: 2px solid var(--gold-accent);
+      padding-bottom: 0.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hobby {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+      background-color: #ffffff;
+      border-left: 4px solid var(--gold-accent);
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .hobby:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .hobby img {
+      width: 45%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .hobby-content {
+      padding: 2rem;
+      flex: 1;
+    }
+
+    .hobby-content h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: var(--deep-blue);
+      margin-top: 0;
+    }
+
+    .hobby-content p {
+      color: var(--steel-gray);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--deep-blue);
+      color: var(--soft-white);
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      .hobby {
+        flex-direction: column;
+      }
+
+      .hobby img {
+        width: 100%;
+      }
+
+      .hobby-content {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Personal Interests</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cv.html">CV</a>
+    <a href="research.html">Research</a>
+    <a href="blog.html">Blog</a>
+    <a href="personal.html">Personal</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Hobbies & Creative Pursuits</h2>
+
+<div class="hobby">
+      <img src="images/family.jpg" alt="Family and home life photo" />
+      <div class="hobby-content">
+        <h3>Family & Home</h3>
+        <p>Spending quality time with my family is at the heart of everything I do. Whether it’s cooking together, exploring new recipes, or enjoying simple everyday moments, these times are deeply meaningful and grounding. Home is where my creativity and peace come together.</p>
+      </div>
+    </div>
+ 
+
+   
+
+    <div class="hobby">
+      <img src="images/painting.jpg" alt="Painting hobby photo" />
+      <div class="hobby-content">
+        <h3>Painting</h3>
+        <p>Painting helps me express emotions and ideas beyond words. I love experimenting with colors and textures — creating scenes that reflect my thoughts or moods. My art often blends natural elements with abstract concepts, offering both serenity and freedom in expression.</p>
+      </div>
+    </div>
+
+     <div class="hobby">
+      <img src="images/sewing.jpg" alt="Sewing hobby photo" />
+      <div class="hobby-content">
+        <h3>Sewing</h3>
+        <p>I find immense joy in sewing, transforming fabric into something beautiful and useful. It’s both a creative outlet and a relaxing escape, allowing me to focus, plan, and craft something entirely from imagination. Whether it’s a small piece or a detailed outfit, every project tells a personal story.</p>
+      </div>
+    </div>
+ </div>
+
+  <footer>
+    &copy; 2025 Saima [Your Name]. All rights reserved.
+  </footer>
+
+</body>
+</html>
